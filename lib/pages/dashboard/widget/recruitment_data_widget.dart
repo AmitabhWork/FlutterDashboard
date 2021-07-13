@@ -71,7 +71,7 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
               /// Table Data
               tableRow(
                 context,
-                name: "Mukteshwar Sharma",
+                name: "Mukteshwar",
                 color: Colors.blue,
                 image: "assets/user2.jpg",
                 designation: "Director",
