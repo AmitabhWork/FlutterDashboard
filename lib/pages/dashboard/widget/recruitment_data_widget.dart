@@ -71,34 +71,34 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
               /// Table Data
               tableRow(
                 context,
-                name: "Mary G Lolus",
-                color: Colors.blue,
-                image: "assets/user1.jpg",
-                designation: "Project Manager",
-                status: "Practical Round",
-              ),
-              tableRow(
-                context,
-                name: "Vince Jacob",
+                name: "Mukteshwar Sharma",
                 color: Colors.blue,
                 image: "assets/user2.jpg",
-                designation: "UI/UX Designer",
+                designation: "Director",
                 status: "Practical Round",
               ),
               tableRow(
                 context,
-                name: "Nell Brian",
+                name: "Amitabh Sarkar",
+                color: Colors.blue,
+                image: "assets/user2.jpg",
+                designation: "Founder",
+                status: "Practical Round",
+              ),
+              tableRow(
+                context,
+                name: "Akash Rai",
                 color: Colors.green,
                 image: "assets/user3.jpg",
-                designation: "React Developer",
+                designation: "Web Developer",
                 status: "Final Round",
               ),
               tableRow(
                 context,
-                name: "Vince Jacob",
+                name: "Geeta Rajput",
                 color: Colors.yellow,
-                image: "assets/user2.jpg",
-                designation: "UI/UX Designer",
+                image: "assets/user1.jpg",
+                designation: "Sr. Web Developer",
                 status: "HR Round",
               ),
             ],
@@ -182,10 +182,12 @@ class _RecruitmentDataWidgetState extends State<RecruitmentDataWidget> {
 
   Widget tableHeader(text) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 15),
-      child: Text(
-        text,
-        style: TextStyle(fontWeight: FontWeight.bold, color: AppColor.black),
+      margin: EdgeInsets.symmetric(vertical: 5),
+      child: Expanded(
+        child: Text(
+          text,
+          style: TextStyle(fontWeight: FontWeight.bold, color: AppColor.black),
+        ),
       ),
     );
   }

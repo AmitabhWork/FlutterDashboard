@@ -26,7 +26,7 @@ class ProfileCardWidget extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    "Kathy Walker",
+                    "Pooja Sharma",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   Text("HR Manager"),

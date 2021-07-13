@@ -20,7 +20,7 @@ class NotificationCardWidget extends StatelessWidget {
                   children: [
                     TextSpan(text: "Good Morning "),
                     TextSpan(
-                      text: "Ravi Patel!",
+                      text: "Amitabh Sarkar!",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       ),
